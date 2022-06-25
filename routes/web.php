@@ -13,4 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', \App\Http\Livewire\FormTagsDemo::class);
+Route::get('/dep-test', \App\Http\Livewire\FormDependentSearchableDemo::class);
 
